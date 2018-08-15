@@ -128,6 +128,7 @@ void state_t::reset()
   tselect = 0;
   for (unsigned int i = 0; i < num_triggers; i++)
     mcontrol[i].type = 2;
+  this->mstatus |= (MSTATUS_XS & (MSTATUS_XS >> 1));
 }
 
 void processor_t::set_debug(bool value)
