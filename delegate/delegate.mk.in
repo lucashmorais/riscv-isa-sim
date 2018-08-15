@@ -1,0 +1,12 @@
+delegate_subproject_deps = \
+	riscv \
+
+delegate_install_prog_srcs = \
+
+delegate_hdrs = \
+	delegate.h \
+
+delegate_srcs = \
+	delegate.cc \
+
+delegate_test_srcs =
